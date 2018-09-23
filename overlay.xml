@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<repositories version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+        <name>jrommanager-overlay</name>
+        <description>JRomManager's gentoo overlay</description>
+        <homepage>https://github.com/optyfr/jrommanager-gentoo</homepage>
+        <owner>
+            <name>optyfr</name>
+            <email>17027109+optyfr@users.noreply.github.com</email>
+        </owner>
+        <source type="git">git://github.com/opty/jrommanager-gentoo.git</source>
+    </repo>
+</repositories>
