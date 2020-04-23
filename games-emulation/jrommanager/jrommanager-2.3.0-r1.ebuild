@@ -28,7 +28,7 @@ src_prepare() {
 	default
 
 	sed -e "/cd.*/s:.*:cd \"${EROOT}/usr/share/${PN}\" || exit:" -i *.sh || die "sed failed!"
-	unzip -j lib/jrm-res-icons-${MY_PV}.jar "jrm/resources/rom.png" || die
+	unzip -j lib/jrm-res-icons-${MY_PV}.jar "jrm/resicons/rom.png" || die
 }
 
 src_install() {
