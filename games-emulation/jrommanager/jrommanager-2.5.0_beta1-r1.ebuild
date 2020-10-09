@@ -20,7 +20,7 @@ LICENSE="GPL-2 GPL-2-with-classpath-exception BSD-2 MIT Apache-2.0 LGPL-2.1 unRA
 SLOT="0"
 KEYWORDS="amd64 x86"
 
-RDEPEND="|| ( >=dev-java/openjdk-jre-bin-11.0.8 >=dev-java/openjdk-11.0.8 >=dev-java/openjdk-bin-11.0.8 )"
+RDEPEND=">=dev-java/openjdk-11.0.8"
 DEPEND="${DEPEND}
 	app-arch/unzip"
 
